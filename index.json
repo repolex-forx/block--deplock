@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "deplock",
+  "versions": [
+    {
+      "commit": "1772173ed53b84a97a4ce3fbacaf989bef61b576",
+      "tag": "",
+      "parsed_at": "2026-11-06T06:22:57.925993+00:00"
+    }
+  ]
+}
