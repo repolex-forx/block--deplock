@@ -3,6 +3,11 @@
   "repo": "deplock",
   "versions": [
     {
+      "commit": "27cfefdc36ee076fd30356784004569f2d77215a",
+      "tag": "v0.1.1",
+      "parsed_at": "2026-11-21T22:53:14.134251+00:00"
+    },
+    {
       "commit": "1772173ed53b84a97a4ce3fbacaf989bef61b576",
       "tag": "",
       "parsed_at": "2026-11-06T06:22:57.925993+00:00"

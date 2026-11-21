@@ -36,10 +36,16 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
-│   │   └── 1772173ed53b84a97a4ce3fbacaf989bef61b576
+│   │   ├── 1772173ed53b84a97a4ce3fbacaf989bef61b576
+│   │   │   └── chunk-001.nq.gz
+│   │   └── 27cfefdc36ee076fd30356784004569f2d77215a
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── 27cfefdc36ee076fd30356784004569f2d77215a.nq.gz
 │   └── repolex
-│       └── 1772173ed53b84a97a4ce3fbacaf989bef61b576
+│       ├── 1772173ed53b84a97a4ce3fbacaf989bef61b576
+│       │   └── chunk-001.nq.gz
+│       └── 27cfefdc36ee076fd30356784004569f2d77215a
 │           └── chunk-001.nq.gz
 ├── blob
 │   ├── 0f60512f9adea841a0fe01ef4a6ea0d012dd4ada.nq.gz
@@ -71,6 +77,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── c93bea64037462df19ab57799ad34b6e3904ee10.nq.gz
 │   ├── c9c8e9276f75950b58cc24613db6b182244647d5.nq.gz
 │   ├── d0d77fca452be534cee2ef2e1fbb01c3ac694e14.nq.gz
+│   ├── d90a2bb9eee5a066abdb638e886aa08018cc1b7a.nq.gz
 │   ├── e1f8144080960ce1b2311f9e9d04a882acc07793.nq.gz
 │   ├── e251c30f129040a7e149cfc80fb06bfe96b68b7d.nq.gz
 │   ├── e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz
@@ -81,8 +88,11 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── 27cfefdc36ee076fd30356784004569f2d77215a.nq.gz
 ├── filetree
-│   └── 1772173ed53b84a97a4ce3fbacaf989bef61b576.nq.gz
+│   ├── 1772173ed53b84a97a4ce3fbacaf989bef61b576.nq.gz
+│   └── 27cfefdc36ee076fd30356784004569f2d77215a.nq.gz
 ├── issue
 │   └── issue.nq.gz
 ├── pr
@@ -90,7 +100,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 43 files
+17 directories, 49 files
 ```
 
 | Directory | What it contains |
@@ -111,4 +121,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [block/deplock](https://github.com/block/deplock)
 
 ---
-*Parsed on 2026-11-06 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-21 by [repolex](https://repolex.ai)*
